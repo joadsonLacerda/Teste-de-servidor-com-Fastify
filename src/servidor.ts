@@ -5,7 +5,7 @@ const servidor = festify({
 })
 
 servidor.get('/test', (req, res) => {
-const saudacao = "ola mundo, bem vindo ao servidor local host mais uma vez"
+const saudacao = "ola mundo, bem vindo ao servidor local host usando o Fastify"
 return res.send(saudacao)
 })
 
